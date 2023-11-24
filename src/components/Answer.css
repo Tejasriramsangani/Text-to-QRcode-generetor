@@ -1,0 +1,150 @@
+/* .box{
+    border: 5px solid black;
+    border-radius:5px 100px 5px 100px;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(249, 218, 247);
+    margin-left: 50px;
+   
+    margin-bottom: 20px;
+   
+
+}
+.boxes{
+    display: flex;
+    flex-direction:row;
+    margin-top: 2px;
+    margin-bottom: 50px;
+    
+}
+.boxes1{
+    display: flex;
+    flex-direction:row;
+    margin-bottom: 30px;
+    
+}
+.box:hover{
+   
+}
+.box img{
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    
+    
+   
+   
+   
+}
+.box h2{
+    font-size: 50px;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+
+    align-items: center;
+    padding-left: 38px;
+   
+    
+
+}
+.box p{
+    font-size: 20px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box i{
+   
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+ 
+  
+
+
+}
+@media screen {
+    
+} */
+
+
+ 
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {
+      width: 33.3333%;
+    }
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 6%;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 5px solid black;
+    height: 400px;
+  }
+  .card:hover{
+    box-shadow: 10px 10px 15px 15px hotpink;
+    transition: 0.2s;
+
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+  }
+  
+  .card_title {
+    color: #080808;
+    font-size: 1.9rem;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;    
+    font-weight: 400;
+    margin-top: 9px;
+  }
+  .made_by{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 35px;
+    text-align: center;
+  } 
+
+  .card_image{
+    height: 250px;
+    width: 340px;
+    vertical-align: middle;
+  }
